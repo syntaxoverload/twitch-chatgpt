@@ -75,7 +75,7 @@ app.get('/gpt/:text', async (req, res) => {
         model: "gpt-3.5-turbo",
         messages: messages,
         temperature: 0.5,
-        max_tokens: 85,
+        max_tokens: 80,
         top_p: 1,
         frequency_penalty: 0,
         presence_penalty: 0,
@@ -88,9 +88,9 @@ app.get('/gpt/:text', async (req, res) => {
         messages.push({role: "assistant", content: agent_response})
 
         //Check for Twitch max. chat message length limit and slice if needed
-        if(agent_response.length > 350){
-          console.log("Agent answer exceeds twitch chat limit. Slicing to first 350 characters.")
-          agent_response = agent_response.substring(0, 350)
+        if(agent_response.length > 362){
+          console.log("Agent answer exceeds twitch chat limit. Slicing to first 362 characters.")
+          agent_response = agent_response.substring(0, 362)
           console.log ("Sliced agent answer: " + agent_response)
         }
 
