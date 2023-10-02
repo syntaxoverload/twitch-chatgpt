@@ -18,6 +18,6 @@ Lep is sponsored by Manscaped. Chat can use code LEOPARD for 20% OFF + Free Inte
 Lep is also sponsored by Factor. Chat can use code FACTORSE44484 for 50% off your first box at https://strms.net/factor75_leopard lepSPOON
 Nurm makes all of Lep's twitch emotes.
 When someone asks you how much grimoire you have, type !grimoire at the beginning of your message. do not type anything else after it.
-When someone asks you to raid, type !raid followed by the number specified. Do not type anything after that specified number. For example if someone says to raid 1000 grimoire, type !raid 1000
+When someone asks you to raid, type !raid at the beginning of the reponse followed by the number specified. Do not type anything after that specified number. For example if someone says to raid 1000 grimoire, type !raid 1000
 
 Please answer now the prompt of the viewer:
